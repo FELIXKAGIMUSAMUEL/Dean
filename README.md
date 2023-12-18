@@ -22,3 +22,4 @@ This repository contains the source code for the Hostel Booking User Interface, 
 
 - This project was developed by Nankunda Natalie, Ahereza Molian, Kahunde Queen Anita, Tayebwa Richie and Kagimu Felix Samuel (https://github.com/FELIXSAMUELKAGIMU).
 Thank you.
+// correct the spelling of the name "Richie" to "Rickie" 
