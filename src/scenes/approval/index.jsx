@@ -12,7 +12,7 @@ const Approval = () => {
   useEffect(() => {
 
     const getHostelData = () => {
-      const url = 'https://groupa-backend.onrender.com/getHostelDetails';
+      const url = 'https://ismgroup-backend.onrender.com/getHostelDetails';
 
       // Define the options for the fetch request
       const options = {
@@ -44,7 +44,7 @@ const Approval = () => {
 
     getHostelData()
 
-    const socket = io('https://groupa-backend.onrender.com', {
+    const socket = io('https://ismgroup-backend.onrender.com', {
       withCredentials: true,
       extraHeaders: {
         "my-custom-header": "abcd"
@@ -97,7 +97,7 @@ const Approval = () => {
   const handleAccept = () => {
     setVisible(false);
     console.log('Accept clicked for:', currentRecord);
-    const url = 'https://groupa-backend.onrender.com/activate';
+    const url = 'https://ismgroup-backend.onrender.com/activate';
 
     // Define the options for the fetch request
     const options = {
@@ -133,7 +133,7 @@ const Approval = () => {
   
   const handleDecline = () => {
     setVisible(false);
-    const url = 'https://groupa-backend.onrender.com/decline';
+    const url = 'https://ismgroup-backend.onrender.com/decline';
 
     // Define the options for the fetch request
     const options = {

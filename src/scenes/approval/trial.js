@@ -1,5 +1,5 @@
 const getHostelData = () => {
-    const url = 'https://groupa-backend.onrender.com/getHostelDetails';
+    const url = 'https://ismgroup-backend.onrender.com/getHostelDetails';
 
     // Define the options for the fetch request
     const options = {
